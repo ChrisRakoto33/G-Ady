@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--lien pour le style de texte/font family-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>G-Ady</title>
+
+</head>
+<body>
+    <div style="display: flex;align-items: center;justify-content: center;font-size: 25px; margin-top: -25px;">
+        <p style="color: green;">G-Ady</p> <p>Amin'ny</p> <p style="color: red;">Doro-tanety</p>
+    </div>
+     <!--Ensemble de l'interface de jeux-->
+     <div style="position: relative; display: inline-block ;margin-left: 150px;margin-top :0px;" >
+        <!--petit cadre pour la vie des joueurs et le temps-->
+        <div class="cadre" >
+            <!--vie du joueur-->
+            <div style="position: relative;width: 100%">
+                <div style="background-color: gray;height: 30px;border-radius: 8px;"></div>
+                <div id="playerHealth"></div>
+            </div>
+            <!--temps-->
+            <div id="timer"></div>
+            <!--vie de l'ennemi-->
+            <div class="align">
+                <div style="background-color: gray;width: 100%;border-radius: 8px"></div>
+                <div id="enemyHealth"></div>
+            </div>
+        </div>
+        <div id="displayText"></div>
+            <canvas style="border-radius: 20px;margin-top: -18px;"></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/utiles.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

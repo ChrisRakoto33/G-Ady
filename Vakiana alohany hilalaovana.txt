@@ -1,0 +1,13 @@
+Mpilalao 1:
+	avia: 'q'
+	avanana: 'd'
+	mintsambikina : 'z'
+	milako : ' '
+Mpilalao 2:
+	avia: 'ArrowLeft'
+	avanana: 'ArrowRight'
+	mintsambikina : 'ArrowUp'
+	milako : 'ArrowDown'
+Hiverina hilalao : 'F5'
+
+Mazotoa Tompoko !

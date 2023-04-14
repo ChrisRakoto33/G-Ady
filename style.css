@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+.cadre{
+    position:absolute;
+    display:flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+#timer{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    color: rgba(2, 117, 2, 0.925);
+    border: 3px solid rgba(2, 117, 2, 0.925);
+    border-radius: 5px;
+
+}
+#enemyHealth {
+    position: absolute;
+    background-color: rgba(250, 25, 25, 0.822);
+    top: 0; bottom: 0;
+    right: 0;width: 100%;
+    border-radius: 8px;
+}
+#playerHealth {
+    position: absolute;
+    background-color:rgba(250, 25, 25, 0.822);
+    top: 0; bottom: 0;
+    right:0;left: 0;
+    border-radius: 8px;
+}
+.align{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#displayText {
+    position:fixed;
+    font-size: 30px;
+    color:rgba(214, 13, 13, 0.815);
+    font-style:inherit;
+    display:contents;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+#aloalo{
+    width: 15%;
+    height: 15%;
+}
